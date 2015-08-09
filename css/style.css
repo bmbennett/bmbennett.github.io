@@ -1,0 +1,78 @@
+/* This is how to comment on css */
+
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Futura, Arial, sans-serif;
+	font
+
+}
+
+.main {
+	background-color: rgba(255,255,255,0.8);
+		max-width: 600px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-left: 40px;
+		padding-right: 40px;
+		box-shadow: 0px 0 20px 5px whitesmoke;
+		border-radius: 0 0 40px 40px;
+		z-index: 0;
+}
+
+h1 {
+		text-align: left;
+		font-family: 'Lobster', cursive;		
+		font-size: 60px;
+		text-transform: ;
+}
+
+h2 {
+	text-align: left;
+	text-transform: ;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+
+h3 {
+	cursor: pointer;
+}
+
+img {
+	cursor: pointer;
+	width: 50px;
+	margin: 0 auto;
+}
+
+p, 
+ul, 
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a:hover {
+	color: #cc66cc;
+	text-decoration: underline;
+
+}
+
+
+
+ul li {
+	display: inline-block;
+	border-left: 2px solid black;
+	padding-left: 10px;
+	margin-left: 6px;
+
+}
+
+ul li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: none;
+
+}
